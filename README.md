@@ -3,6 +3,8 @@
 **Lightweight, portable, and intelligent** Deploy Microsoft Office to hundreds of computers in minutes.  
 No more searching for XML variables, no more command‑line headaches. Just plug, click, and go.
 
+Made with love by Andreea Mirela, EU citizen.
+
 ---
 
 ## 📄 License
