@@ -1,0 +1,32 @@
+#include "resources.h"
+#include <windows.h>
+
+IDR_MY_XML      RCDATA  "files/config.xml"
+IDR_FONT_SEGOE  RCDATA  "assets/segoe-ui-light.ttf"
+IDI_APP_ICON    ICON    "assets/favicon.ico"
+IDB_IMG_INFO RCDATA     "assets/info.png"
+
+IDB_IMG_365      RCDATA        "assets/office-365.png"
+IDB_IMG_HOME_BUS RCDATA        "assets/office-home-business.png"
+IDB_IMG_HOME_STU RCDATA        "assets/office-home-student.png"
+
+IDB_IMG_2021     RCDATA        "assets/2021/office-2021.png"
+IDB_IMG_OUTLOOK_2021 RCDATA    "assets/2021/outlook-2021.png"
+IDB_IMG_POWERPOINT_2021 RCDATA "assets/2021/powerpoint-2021.png"
+IDB_IMG_WORD_2021 RCDATA       "assets/2021/word-2021.png"
+IDB_IMG_EXCEL_2021 RCDATA      "assets/2021/excel-2021.png"
+IDB_IMG_ACCESS_2021 RCDATA     "assets/2021/access-2021.png"
+IDB_IMG_VISIO_2021 RCDATA      "assets/2021/visio-2021.png"
+IDB_IMG_PROJECT_2021 RCDATA    "assets/2021/project-2021.png"
+IDB_IMG_ONENOTE_2021 RCDATA    "assets/2021/onenote-2021.png"
+
+IDB_IMG_2024     RCDATA        "assets/2024/office-2024.png"
+IDB_IMG_OUTLOOK_2024 RCDATA    "assets/2024/outlook-2024.png"
+IDB_IMG_POWERPOINT_2024 RCDATA "assets/2024/powerpoint-2024.png"
+IDB_IMG_WORD_2024 RCDATA       "assets/2024/word-2024.png"
+IDB_IMG_EXCEL_2024 RCDATA      "assets/2024/excel-2024.png"
+IDB_IMG_ACCESS_2024 RCDATA     "assets/2024/access-2024.png"
+IDB_IMG_VISIO_2024 RCDATA      "assets/2024/visio-2024.png"
+IDB_IMG_PROJECT_2024 RCDATA    "assets/2024/project-2024.png"
+
+1 24 "style.manifest"

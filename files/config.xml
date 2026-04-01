@@ -1,0 +1,7 @@
+<Configuration>
+  <Add OfficeClientEdition="{ARCH}" Channel="{CHANNEL}">
+    <Product ID="{PRODUCT}">
+      <Language ID="{LANG}" />
+    </Product>
+  </Add>
+</Configuration>
