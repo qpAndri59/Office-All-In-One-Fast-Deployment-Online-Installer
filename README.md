@@ -78,7 +78,7 @@ When you click **“Install”**, the tool:
 - Launches `odt.exe /configure configuration.xml` in a separate process.
 - Shows a loading spinner and waits for the installation to finish.
 
-If the tool finds an `autorun.inf` file in its own folder **and** the file contains all required entries (`channel`, `product`, `arch`, `lang`, `path`), it automatically starts the installation **without showing the UI**. This is what enables the silent deployment workflow.
+If the tool finds an `autorun.inf` file in its own folder **and** the file contains all required entries (`channel`, `product`, `arch`, `lang`, `path`), it automatically starts the installation **without showing the UI**. This is what enables the silent deployment workflow. (it will show the Microsoft ODT UI because the user is responsabile for accepting EULA)
 
 ### Folder structure
 
