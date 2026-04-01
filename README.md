@@ -26,7 +26,7 @@ It’s slow, error‑prone, and incredibly frustrating – especially if you’r
 - Run the tool **once** on any PC, select the exact Office version, architecture, language, and install path you need, then click **“Generate autorun.inf”**.
 - Close the tool, remove the USB stick, and insert it into the first target computer.
 - On the target computer, simply **double‑click `Setup.exe`** (the compiled tool).  
-  The tool detects the `autorun.inf` file, reads your pre‑configured settings, and immediately launches the Office installation – **no UI, no questions, no delays**.
+  The tool detects the `autorun.inf` file, reads your pre‑configured settings, and immediately launches the Office installation – **no questions, no delays** (it will display the offical microsoft ODT UI because the user is responsabile for accepting the EULA).
 - As soon as the Office installer starts (you see the progress bar), **pull out the USB stick** and move to the next computer.  
   The installation continues independently from the local hard drive.
 
