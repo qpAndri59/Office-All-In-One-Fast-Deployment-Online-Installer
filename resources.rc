@@ -3,7 +3,7 @@
 
 IDR_MY_XML      RCDATA  "files/config.xml"
 IDR_FONT_SEGOE  RCDATA  "assets/segoe-ui-light.ttf"
-IDI_APP_ICON    ICON    "assets/favicon.ico"
+IDI_APP_ICON    ICON    "assets/favico.ico"
 IDB_IMG_INFO RCDATA     "assets/info.png"
 
 IDB_IMG_365      RCDATA        "assets/office-365.png"
