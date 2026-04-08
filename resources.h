@@ -26,3 +26,6 @@
 #define IDB_IMG_PROJECT_2024     219
 #define IDB_IMG_ACCESS_2024      220
 #define IDB_IMG_INFO             221
+
+#define IDB_IMG_2019             222
+#define IDB_IMG_2016             223

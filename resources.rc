@@ -29,4 +29,7 @@ IDB_IMG_ACCESS_2024 RCDATA     "assets/2024/access-2024.png"
 IDB_IMG_VISIO_2024 RCDATA      "assets/2024/visio-2024.png"
 IDB_IMG_PROJECT_2024 RCDATA    "assets/2024/project-2024.png"
 
+IDB_IMG_2019     RCDATA        "assets/2019/office-2019.png"
+IDB_IMG_2016     RCDATA        "assets/2016/office-2016.png"
+
 1 24 "style.manifest"

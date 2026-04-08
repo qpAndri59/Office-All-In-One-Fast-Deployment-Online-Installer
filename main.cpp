@@ -172,11 +172,16 @@ static const LangInfo g_langs[] = {
 static const int N_LANGS = (int)(sizeof(g_langs) / sizeof(g_langs[0]));
 
 static const ProdInfo g_prod365[] = {
-    { L"O365ProPlusRetail",            L"Microsoft 365 Apps for Enterprise", IDB_IMG_365 },
-    { L"O365BusinessRetail",           L"Microsoft 365 Apps for Business", IDB_IMG_365 },
+    { L"O365ProPlusRetail",            L"Microsoft 365 Professional Plus", IDB_IMG_365 },
+    { L"O365BusinessRetail",           L"Microsoft 365 Business", IDB_IMG_365 },
     { L"O365HomePremRetail",           L"Microsoft 365 Personal / Family", IDB_IMG_365 },
-    { L"O365ProPlusEEANoTeamsRetail",  L"Microsoft 365 Apps for Enterprise (no Teams)", IDB_IMG_365 },
-    { L"O365BusinessEEANoTeamsRetail", L"Microsoft 365 Apps for Business (no Teams)", IDB_IMG_365 },
+    { L"O365PersonalRetail",           L"Microsoft 365 Personal", IDB_IMG_365 },
+    { L"O365SmallBusinessRetail",      L"Microsoft 365 Small Business Premium", IDB_IMG_365 },
+    { L"O365ProPlusEEANoTeamsRetail",  L"Microsoft 365 Professional Plus (no Teams)", IDB_IMG_365 },
+    { L"O365BusinessEEANoTeamsRetail", L"Microsoft 365 Business (no Teams)", IDB_IMG_365 },
+    { L"O365EduProPlusRetail",         L"Microsoft 365 Education Pro Plus", IDB_IMG_365 },
+    { L"O365EduStaffRetail",           L"Microsoft 365 Education Staff", IDB_IMG_365 },
+    { L"O365EduStudentRetail",         L"Microsoft 365 Education Student", IDB_IMG_365 },
 };
 static const ProdInfo g_prod2024[] = {
     { L"ProPlus2024Volume",      L"Office Professional Plus 2024 (Volume)", IDB_IMG_2024 },
@@ -212,14 +217,42 @@ static const ProdInfo g_prod2021[] = {
     { L"OneNote2021Volume",      L"OneNote 2021 (Volume)", IDB_IMG_ONENOTE_2021 },
 };
 
+static const ProdInfo g_prod2019[] = {
+    { L"ProPlus2019Volume",      L"Office Professional Plus 2019 (Volume)", IDB_IMG_2019 },
+    { L"Standard2019Volume",     L"Office Standard 2019 (Volume)", IDB_IMG_2019 },
+    { L"Professional2019Retail", L"Office Professional 2019 (Retail)", IDB_IMG_2019 },
+    { L"HomeBusiness2019Retail", L"Office Home & Business 2019", IDB_IMG_HOME_BUS },
+    { L"HomeStudent2019Retail",  L"Office Home & Student 2019", IDB_IMG_HOME_STU },
+    { L"Personal2019Retail",     L"Office Personal 2019", IDB_IMG_HOME_STU },
+    { L"ProPlus2019Retail",      L"Office Professional Plus 2019 (Retail)", IDB_IMG_2019 },
+    { L"ProjectPro2019Volume",   L"Project Professional 2019 (Volume)", IDB_IMG_PROJECT_2021 },
+    { L"ProjectStd2019Volume",   L"Project Standard 2019 (Volume)", IDB_IMG_PROJECT_2021 },
+    { L"VisioPro2019Volume",     L"Visio Professional 2019 (Volume)", IDB_IMG_VISIO_2021 },
+    { L"VisioStd2019Volume",     L"Visio Standard 2019 (Volume)", IDB_IMG_VISIO_2021 },
+};
+
+static const ProdInfo g_prod2016[] = {
+    { L"PersonalRetail",         L"Office Personal 2016", IDB_IMG_2016 },
+    { L"HomeStudentRetail",      L"Office Home & Student 2016", IDB_IMG_HOME_STU },
+    { L"HomeBusinessRetail",     L"Office Home & Business 2016", IDB_IMG_HOME_BUS },
+    { L"ProPlusVolume",          L"Office Professional Plus 2016 (Volume)", IDB_IMG_2016 },
+    { L"StandardVolume",         L"Office Standard 2016 (Volume)", IDB_IMG_2016 },
+    { L"ProjectProVolume",       L"Project Professional 2016 (Volume)", IDB_IMG_PROJECT_2021 },
+    { L"ProjectStdVolume",       L"Project Standard 2016 (Volume)", IDB_IMG_PROJECT_2021 },
+    { L"VisioProVolume",         L"Visio Professional 2016 (Volume)", IDB_IMG_VISIO_2021 },
+    { L"VisioStdVolume",         L"Visio Standard 2016 (Volume)", IDB_IMG_VISIO_2021 },
+};
+
 static const ChanInfo g_channels[] = {
-    { L"PerpetualVL2024",   L"Office 2024", IDB_IMG_2024, g_prod2024, 14 },
-    { L"PerpetualVL2021",   L"Office 2021", IDB_IMG_2021, g_prod2021, 15 },
-    { L"Current",           L"Microsoft 365 Monthly Channel", IDB_IMG_365, g_prod365, 5 },
-    { L"MonthlyEnterprise", L"Microsoft 365 Monthly Enterprise Channel", IDB_IMG_365, g_prod365, 4 },
-    { L"SemiAnnual",        L"Microsoft 365 Semi-Annual Enterprise Channel", IDB_IMG_365, g_prod365, 4 },
-    { L"CurrentPreview",    L"Microsoft 365 Experimental Channel", IDB_IMG_365, g_prod365, 1 },
-    { L"SemiAnnualPreview", L"Microsoft 365 Experimental Semi-Annual Enterprise", IDB_IMG_365, g_prod365, 1 },
+    { L"PerpetualVL2024",   L"Office 2024", IDB_IMG_2024, g_prod2024, (int)(sizeof(g_prod2024)/sizeof(g_prod2024[0])) },
+    { L"PerpetualVL2021",   L"Office 2021", IDB_IMG_2021, g_prod2021, (int)(sizeof(g_prod2021)/sizeof(g_prod2021[0])) },
+    { L"PerpetualVL2019",   L"Office 2019", IDB_IMG_2021, g_prod2019, (int)(sizeof(g_prod2019)/sizeof(g_prod2019[0])) },
+    { L"PerpetualVL2016",   L"Office 2016", IDB_IMG_2021,  g_prod2016, (int)(sizeof(g_prod2016)/sizeof(g_prod2016[0])) },
+    { L"Current",           L"Microsoft 365 Monthly Channel", IDB_IMG_365, g_prod365, (int)(sizeof(g_prod365)/sizeof(g_prod365[0])) },
+    { L"MonthlyEnterprise", L"Microsoft 365 Monthly Enterprise Channel", IDB_IMG_365, g_prod365, (int)(sizeof(g_prod365)/sizeof(g_prod365[0])) },
+    { L"SemiAnnual",        L"Microsoft 365 Semi-Annual Enterprise Channel", IDB_IMG_365, g_prod365, (int)(sizeof(g_prod365)/sizeof(g_prod365[0])) },
+    { L"CurrentPreview",    L"Microsoft 365 Experimental Channel", IDB_IMG_365, g_prod365, (int)(sizeof(g_prod365)/sizeof(g_prod365[0])) },
+    { L"SemiAnnualPreview", L"Microsoft 365 Experimental Semi-Annual Enterprise", IDB_IMG_365, g_prod365, (int)(sizeof(g_prod365)/sizeof(g_prod365[0])) },
 };
 static const int N_CHANNELS = (int)(sizeof(g_channels) / sizeof(g_channels[0]));
 
